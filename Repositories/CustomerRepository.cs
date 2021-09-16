@@ -18,7 +18,7 @@ namespace UnitOfShop.Repositories
 
         public CustomerRepository(DataContext context)
         {
-            this._context = context;
+            _context = context;
         }
 
         public void Save(Customer customer)
